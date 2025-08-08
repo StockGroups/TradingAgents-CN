@@ -176,7 +176,7 @@ chmod +x scripts/smart_start.sh && ./scripts/smart_start.sh
 
 ```bash
 # 1. 升级pip (重要！避免安装错误)
-python -m pip install --upgrade pip
+python3 -m pip install --upgrade pip
 
 python3 -m venv .venv
 
