@@ -186,7 +186,7 @@ source .venv/bin/activate
 pip install -e .
 
 # 3. 启动应用
-python start_web.py
+python3 start_web.py
 
 # 4. 访问 http://localhost:8501
 ```
