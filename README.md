@@ -775,6 +775,8 @@ source env/bin/activate
 # 2. 安装项目到虚拟环境（重要！）
 pip install -e .
 pip install python-dotenv
+pip install stockstats
+pip3 install akshare --upgrade
 
 # 3. 启动Web管理界面
 # 方法1：使用项目启动脚本（推荐）
