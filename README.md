@@ -309,6 +309,7 @@ source .venv/bin/activate
 
 # 2. 安装依赖
 pip install -e .
+pip install pypandoc markdown
 
 # 3. 启动应用
 python3 start_web.py
