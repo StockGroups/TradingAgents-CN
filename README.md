@@ -310,6 +310,7 @@ source .venv/bin/activate
 pip install -e .
 pip install pypandoc markdown
 pip install langchain-openai --upgrade
+pip install tqdm
 
 # 3. 启动应用
 python3 start_web.py
@@ -792,12 +793,22 @@ docker-compose logs -f web
 # Linux/macOS
 source env/bin/activate
 
-# 2. 安装项目到虚拟环境（重要！）
+# 2. 安装项目到虚拟环境（重要！）===============================================
 pip install -e .
 pip install python-dotenv
 pip install stockstats
 pip3 install akshare --upgrade
 pip install beautifulsoup4
+pip install tqdm
+pip install openai
+pip install akshare --upgrade
+pip install langchain-openai --upgrade
+pip install langchain-anthropic --upgrade
+pip install langchain-google-genai --upgrade
+pip install dashscope --upgrade
+pip install langgraph --upgrade
+pip install chromadb --upgrade
+
 
 # 3. 启动Web管理界面
 # 方法1：使用项目启动脚本（推荐）
