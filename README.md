@@ -797,6 +797,7 @@ pip install -e .
 pip install python-dotenv
 pip install stockstats
 pip3 install akshare --upgrade
+pip install beautifulsoup4
 
 # 3. 启动Web管理界面
 # 方法1：使用项目启动脚本（推荐）
