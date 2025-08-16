@@ -311,6 +311,11 @@ pip install -e .
 pip install pypandoc markdown
 pip install langchain-openai --upgrade
 pip install tqdm
+pip install langchain-google-genai --upgrade
+pip install dashscope --upgrade
+pip install langgraph --upgrade
+pip install chromadb --upgrade
+
 
 # 3. 启动应用
 python3 start_web.py
