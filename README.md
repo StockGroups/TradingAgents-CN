@@ -299,6 +299,14 @@ chmod +x scripts/smart_start.sh && ./scripts/smart_start.sh
 ### 💻 本地部署
 
 ```bash
+# 卸载已安装的python3-pip（即使显示未安装也可执行）
+sudo apt remove --purge python3-pip -y
+# 清理残留依赖
+sudo apt autoremove -y
+# 重新更新包列表并安装
+sudo apt update
+sudo apt install python3-pip -y
+
 # 1. 升级pip (重要！避免安装错误)
 python3 -m pip install --upgrade pip
 
