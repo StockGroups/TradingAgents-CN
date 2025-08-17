@@ -307,6 +307,8 @@ sudo apt autoremove -y
 sudo apt update
 sudo apt install python3-pip -y
 
+ apt install python3.10-venv
+
 # 1. 升级pip (重要！避免安装错误)
 python3 -m pip install --upgrade pip
 
