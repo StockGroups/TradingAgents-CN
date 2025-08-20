@@ -325,6 +325,7 @@ pip install langchain-google-genai --upgrade
 pip install dashscope --upgrade
 pip install langgraph --upgrade
 pip install chromadb --upgrade
+pip install langchain
 
 
 # 3. 启动应用
