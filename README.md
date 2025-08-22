@@ -326,6 +326,7 @@ pip install dashscope --upgrade
 pip install langgraph --upgrade
 pip install chromadb --upgrade
 pip install langchain
+sudo apt-get install pandoc
 
 
 # 3. 启动应用
